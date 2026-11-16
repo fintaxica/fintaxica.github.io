@@ -3,50 +3,232 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Fintaxica — Your money, your sheet</title>
-<style>
-  :root { color-scheme: dark; }
-  body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-         background:#101014; color:#e8e8ea; line-height:1.6; }
-  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px; }
-  h1 { font-size: 2.2rem; margin-bottom: .2em; }
-  .tag { color:#2dd4bf; font-weight:600; }
-  .card { background:#1b1b20; border-radius:14px; padding:20px 24px; margin:16px 0; }
-  a { color:#2dd4bf; }
-  footer { margin-top:48px; font-size:.85rem; color:#888; }
-  h2 { font-size:1.15rem; margin-bottom:.3em; }
-  p { margin:.4em 0; color:#c8c8cc; }
-</style>
+<title>FinTaxica — Your money, finally clear</title>
+<meta name="description" content="FinTaxica is a private personal-finance app for Android. Track bank accounts, cash and wallets in a Google Sheet that lives in your own Google Drive. No servers, no ads, no trackers.">
+<meta name="theme-color" content="#0F1729">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:title" content="FinTaxica — Your money, finally clear">
+<meta property="og:description" content="Private personal finance. Your data lives in your own Google Drive — never on our servers.">
+<meta property="og:image" content="https://fintaxica.github.io/assets/icon-512.png">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<div class="wrap">
-  <h1>Fintaxica</h1>
-  <p class="tag">Personal finance tracking where YOU own the data.</p>
 
-  <div class="card">
-    <h2>What it does</h2>
-    <p>Track your cash, bank accounts and wallets in one place. Record income,
-    expenses and transfers in seconds, see your balances and monthly spending
-    at a glance — and over time, understand and optimise your taxes.</p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-512.png" alt="">FinTaxica</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-primary btn-sm" href="#early-access">Get early access</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Money · Tax · Insight</p>
+        <h1>Your money,<br><span class="accent">finally clear.</span></h1>
+        <p class="lede">FinTaxica brings your bank accounts, cash and wallets into one calm view
+          — your net worth, what you spent this month, and where it went. Everything is stored
+          in a Google Sheet in <strong>your own Google Drive</strong>, not on our servers.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#early-access">Get early access</a>
+          <a class="btn btn-ghost" href="#privacy">How your data is kept</a>
+        </div>
+        <p class="note">For Android · Now in early access</p>
+      </div>
+
+      <div class="phone" role="img" aria-label="FinTaxica home screen with sample figures">
+        <div class="screen">
+          <div class="top"><img src="assets/icon-512.png" alt="">FinTaxica</div>
+          <div class="hero-card">
+            <div class="lbl">NET WORTH</div>
+            <div class="big">₹4,82,350</div>
+            <div class="sub">You're at your highest ever</div>
+            <div class="acts"><span class="a-exp">Expense</span><span class="a-inc">Income</span><span class="a-trf">Transfer</span></div>
+          </div>
+          <div class="kpis">
+            <div class="kpi"><div class="k">Spent this month</div><div class="v">₹18,420</div><div class="d">▼ 12% vs last month</div></div>
+            <div class="kpi"><div class="k">Earned</div><div class="v">₹85,000</div></div>
+            <div class="kpi"><div class="k">Saved</div><div class="v">₹66,580</div><div class="d">78% savings rate</div></div>
+            <div class="kpi"><div class="k">Cash in hand</div><div class="v">₹6,200</div></div>
+          </div>
+          <div class="tiles">
+            <div class="tile"><i style="background:rgba(67,217,138,.16)"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#43D98A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6M5 10v8M12 10v8M19 10v8M3 20h18"/></svg></i><b>Savings</b><small>₹3,61,150</small></div>
+            <div class="tile"><i style="background:rgba(251,191,36,.16)"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#FBBF24" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><circle cx="12" cy="12" r="2.5"/></svg></i><b>Cash</b><small>₹6,200</small></div>
+            <div class="tile"><i style="background:rgba(67,217,138,.16)"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#43D98A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 7H5a2 2 0 0 1 0-4h13v4M3 5v14a2 2 0 0 0 2 2h15V7"/><circle cx="16" cy="14" r="1"/></svg></i><b>Wallet</b><small>₹1,15,000</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust">
+    <div class="wrap">
+      <ul>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg>Data stays in your Drive</li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6"/></svg>Access to its own files only</li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg>No ads, no trackers</li>
+        <li><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/></svg>Open it in Google Sheets</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>Your data stays yours</h2>
-    <p>Fintaxica stores everything in a Google Sheet inside <strong>your own
-    Google Drive</strong>. We operate no servers and can never see your data.
-    The app only receives permission to access files it creates itself —
-    nothing else in your Drive. You can open, export or delete your data
-    sheet at any time; it is a normal spreadsheet that belongs to you.</p>
-  </div>
+  <section id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">What it does</p>
+        <h2>Everything you need to know where your money is.</h2>
+        <p>Built for people who want a clear picture without handing their finances to another company's database.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6"/><path d="M5 10v8M9 10v8M15 10v8M19 10v8M3 20h18"/></svg></div>
+          <h3>All your sources, one view</h3>
+          <p>Bank accounts, cash in hand and digital wallets — each with its live balance, side by side.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></div>
+          <h3>Entries in seconds</h3>
+          <p>Record an expense, income or a transfer between sources in a couple of taps. Edit or remove anything later.</p>
+        </div>
+        <div class="card">
+          <div class="ico gold"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></div>
+          <h3>Net worth that means something</h3>
+          <p>See your total across every source, and how close you are to your highest point ever.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div>
+          <h3>This month, at a glance</h3>
+          <p>Spent, earned and saved — with your savings rate and how spending compares with last month.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9"/><path d="M21 3v6h-6"/></svg></div>
+          <h3>Backups you control</h3>
+          <p>One tap saves a copy of your sheet to your Drive. The app also backs up automatically before any data upgrade.</p>
+        </div>
+        <div class="card">
+          <div class="ico gold"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="3"/><path d="M11 18h2"/></svg></div>
+          <h3>Same data on every phone</h3>
+          <p>Sign in with the same Google account on a new phone and your data is simply there.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <div class="card">
-    <h2>Links</h2>
-    <p><a href="privacy.html">Privacy Policy</a> (includes data &amp; account
-    deletion instructions)</p>
-    <p>Support: <a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a></p>
-  </div>
+  <section class="section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>Set up in under two minutes.</h2>
+      </div>
+      <div class="steps">
+        <div class="step"><h3>Sign in with Google</h3><p>FinTaxica asks for one narrow permission: access to the files it creates — nothing else in your Drive.</p></div>
+        <div class="step"><h3>Your sheet is created</h3><p>A spreadsheet named “FinTaxica Data” appears in your Google Drive. It belongs to you.</p></div>
+        <div class="step"><h3>Add your sources</h3><p>Enter today's balance for each bank account, wallet and cash. From then on, every entry keeps them up to date.</p></div>
+      </div>
+    </div>
+  </section>
 
-  <footer>© 2026 Fintaxica · a 100 Sangrama app</footer>
-</div>
+  <section id="privacy">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Private by design</p>
+        <h2>We built FinTaxica so we can't see your money.</h2>
+        <p>There is no FinTaxica server holding your data. The app talks directly to Google on your behalf, and your records live in a spreadsheet you own.</p>
+      </div>
+      <div class="compare">
+        <div class="card them">
+          <h3>The usual finance app</h3>
+          <ul>
+            <li>Your records sit on the company's servers</li>
+            <li>Often reads your SMS or asks for bank logins</li>
+            <li>Leaving means exporting — if you can</li>
+            <li>Ads or data partnerships pay the bills</li>
+          </ul>
+        </div>
+        <div class="card us">
+          <h3>FinTaxica</h3>
+          <ul>
+            <li>Your records sit in your own Google Drive</li>
+            <li>No SMS access, no bank credentials — ever</li>
+            <li>It's a normal spreadsheet: open, export, keep it</li>
+            <li>No ads, no trackers, no analytics</li>
+          </ul>
+        </div>
+      </div>
+      <p style="margin-top:28px" class="muted">Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+    </div>
+  </section>
+
+  <section class="section-alt roadmap">
+    <div class="wrap">
+      <div class="section-head">
+        <p class="eyebrow">Where we're headed</p>
+        <h2>From tracking to real financial clarity.</h2>
+        <p>FinTaxica starts with the basics done well, and grows from there.</p>
+      </div>
+      <div class="grid">
+        <div class="card"><span class="pill live">Available</span><h3>Sources, entries &amp; insights</h3><p>Balances, net worth, monthly spending and category breakdowns.</p></div>
+        <div class="card"><span class="pill">Planned</span><h3>Tags &amp; budgets</h3><p>Tag entries your way and see totals for any tag — a trip, a project, a person.</p></div>
+        <div class="card"><span class="pill">Planned</span><h3>Investments &amp; tax</h3><p>Track holdings and returns, and see the tax impact of your gains before you act.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="section-head"><p class="eyebrow">Questions</p><h2>Frequently asked.</h2></div>
+      <div class="faq">
+        <details><summary>Can FinTaxica see my financial data?</summary>
+          <p>No. Your data is written to a spreadsheet in your own Google Drive and is never sent to a FinTaxica server — we don't operate one. The app can access only the files it created itself.</p></details>
+        <details><summary>Does it read my SMS or connect to my bank?</summary>
+          <p>No. FinTaxica never asks for SMS access or bank credentials. You record entries yourself, which keeps you in full control.</p></details>
+        <details><summary>What happens if I change phones?</summary>
+          <p>Install FinTaxica on the new phone and sign in with the same Google account. The app finds your existing sheet and everything is there.</p></details>
+        <details><summary>Can I edit my data in Google Sheets directly?</summary>
+          <p>Yes — it's a regular spreadsheet you can open, view and export at any time. If you edit it by hand, keep the column layout as it is so the app can keep reading it.</p></details>
+        <details><summary>How do I delete my data?</summary>
+          <p>In the app, go to <strong>More → Delete my data</strong>. Full steps, including how to do it without the app, are on the <a href="delete-data.html">data deletion page</a>.</p></details>
+        <details><summary>How much does it cost?</summary>
+          <p>FinTaxica is free during early access.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-band" id="early-access">
+    <div class="wrap">
+      <div class="card">
+        <h2>Be among the first to use FinTaxica.</h2>
+        <p>We're opening FinTaxica to early testers on Android. Drop us a line and we'll send you an invite.</p>
+        <a class="btn btn-primary" href="mailto:fintaxica@gmail.com?subject=FinTaxica%20early%20access">Request an invite</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="./"><img src="assets/icon-512.png" alt="">FinTaxica</a>
+      <p class="muted" style="margin:12px 0 0;max-width:30em">Private personal finance. Your money, your sheet, your Drive.</p>
+    </div>
+    <div>
+      <h4>Product</h4>
+      <ul><li><a href="#features">Features</a></li><li><a href="#privacy">Privacy by design</a></li><li><a href="#faq">FAQ</a></li></ul>
+    </div>
+    <div>
+      <h4>Legal &amp; support</h4>
+      <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="delete-data.html">Delete your data</a></li><li><a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a></li></ul>
+    </div>
+    <div class="legal"><span>© 2026 100 Sangrama. All rights reserved.</span><span>FinTaxica is not affiliated with Google. Google Drive and Google Sheets are trademarks of Google LLC.</span></div>
+  </div>
+</footer>
 </body>
 </html>
