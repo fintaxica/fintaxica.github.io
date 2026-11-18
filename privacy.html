@@ -27,7 +27,7 @@
   <div class="wrap">
     <p class="eyebrow">Legal</p>
     <h1>Privacy Policy</h1>
-    <p>Effective 16 November 2026 · Applies to the FinTaxica Android app and this website</p>
+    <p>Last updated 18 November 2026 · Applies to the FinTaxica Android app and this website</p>
   </div>
 </div>
 
@@ -65,7 +65,7 @@
     </div>
 
     <h2 id="who">1. Who we are</h2>
-    <p>FinTaxica is a personal-finance app published by <strong>100 Sangrama</strong> (“we”, “us”). This policy explains what happens to your information when you use the FinTaxica app and this website. If you have any questions, contact us at <a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a>.</p>
+    <p>FinTaxica is a personal-finance app published by <strong>100&nbsp;SangRaMA</strong> (“we”, “us”). This policy explains what happens to your information when you use the FinTaxica app and this website. If you have any questions, contact us at <a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a>.</p>
 
     <h2 id="how">2. How FinTaxica works</h2>
     <p>FinTaxica has no backend of its own. When you sign in, the app creates a spreadsheet called <strong>“FinTaxica Data”</strong> in your Google Drive and reads from and writes to it directly through Google's APIs. Your records travel only between your phone and Google — they never pass through a server run by us, and we have no way to read them.</p>
@@ -89,8 +89,12 @@
     </table>
     <p>FinTaxica does not request SMS, contacts, location, camera, microphone or storage permissions, and never asks for bank login credentials.</p>
 
+    <h3>Investment search and prices</h3>
+    <p>When you search for a stock, ETF or mutual fund to add, the app sends <strong>only the text you type</strong> (for example “nifty bees”) to Yahoo Finance's public search and to mfapi.in, a free mutual-fund database, to list matching names. No account, holding, amount or other information about you is sent.</p>
+    <p>Prices are not fetched by the app at all. They come from formulas in your own sheet (such as Google's <code>GOOGLEFINANCE</code>, or a public NAV feed from mfapi.in or AMFI), which Google Sheets evaluates on Google's servers. If a mutual fund's formula hasn't produced a price yet, the app fetches that fund's latest NAV from mfapi.in, sending only the fund's public scheme code.</p>
+
     <h2 id="collect">5. What we collect</h2>
-    <p><strong>Nothing.</strong> We do not collect, receive, store, sell or share any personal or financial information. The current version of the app contains no advertising, analytics, crash-reporting or tracking software. This website uses no cookies and no analytics. The site is hosted on GitHub Pages, which may keep standard technical logs (such as IP addresses) under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
+    <p><strong>Nothing.</strong> We do not collect, receive, store, sell or share any personal or financial information. (The investment search above sends only your search text to public search services.) The current version of the app contains no advertising, analytics, crash-reporting or tracking software. This website uses no cookies and no analytics. The site is hosted on GitHub Pages, which may keep standard technical logs (such as IP addresses) under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</p>
 
     <h2 id="limited-use">6. Google API Services — Limited Use</h2>
     <p>FinTaxica's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Specifically, data accessed through Google APIs is:</p>
@@ -133,10 +137,16 @@
     <p>FinTaxica is not directed at children under 13 (or the minimum age in your country) and does not knowingly process data from them.</p>
 
     <h2 id="changes">13. Changes to this policy</h2>
-    <p>If we change how the app handles data, we will update this page and its effective date before the change takes effect. Continuing to use the app after that date means you accept the updated policy.</p>
+    <p>We may update this Privacy Policy from time to time, and we reserve the right to do so at any time — for example when we add features, change how the app works, or when the law changes.</p>
+    <ul>
+      <li>Every update is posted on this page, and the “Last updated” date at the top changes.</li>
+      <li>If a change is significant, for example it affects what data the app accesses or how that data is used, we will tell you in advance in the app or on this website.</li>
+      <li>Where the law requires your consent for a change, we will ask for it before the change applies to you.</li>
+    </ul>
+    <p>Continuing to use FinTaxica after an update takes effect means you accept the updated policy. If you don't agree, you can stop using the app and <a href="delete-data.html">delete your data</a> at any time.</p>
 
     <h2 id="contact">14. Contact</h2>
-    <p>100 Sangrama · <a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a></p>
+    <p>100&nbsp;SangRaMA · <a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a></p>
   </article>
 </div>
 
@@ -154,7 +164,7 @@
       <h4>Legal &amp; support</h4>
       <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="delete-data.html">Delete your data</a></li><li><a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a></li></ul>
     </div>
-    <div class="legal"><span>© 2026 100 Sangrama. All rights reserved.</span><span>FinTaxica is not affiliated with Google. Google Drive and Google Sheets are trademarks of Google LLC.</span></div>
+    <div class="legal"><span>© 100&nbsp;SangRaMA, 2026. All rights reserved.</span><span>FinTaxica is not affiliated with Google. Google Drive and Google Sheets are trademarks of Google LLC.</span></div>
   </div>
 </footer>
 </body>
