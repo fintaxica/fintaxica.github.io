@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User guide — FinTaxica</title>
+<meta name="description" content="How to use FinTaxica, step by step: sources, buckets, Instant cash, entries, templates and recurring payments, tags, investments, insights and the India tax estimate.">
+<meta name="theme-color" content="#0F1729">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-512.png" alt="">FinTaxica</a>
+    <nav class="nav" aria-label="Main">
+      <a href="help.html" aria-current="page">Guide</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="delete-data.html">Delete data</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="doc-hero">
+  <div class="wrap">
+    <p class="eyebrow">Help</p>
+    <h1>FinTaxica user guide</h1>
+    <p>How everything in the app works, step by step · Updated 20 November 2026</p>
+  </div>
+</div>
+
+<div class="wrap doc">
+  <aside class="toc" aria-label="On this page">
+    <h4>On this page</h4>
+    <ol>
+      <li><a href="#getting-started">Getting started</a></li>
+      <li><a href="#home">The Home screen</a></li>
+      <li><a href="#sources">Sources</a></li>
+      <li><a href="#buckets">Buckets</a></li>
+      <li><a href="#instant-cash">Instant cash</a></li>
+      <li><a href="#adding-entries">Adding entries</a></li>
+      <li><a href="#templates">Templates &amp; recurring</a></li>
+      <li><a href="#activity">Activity</a></li>
+      <li><a href="#tags">Tags</a></li>
+      <li><a href="#invest">Investments</a></li>
+      <li><a href="#insights">Insights</a></li>
+      <li><a href="#tax">Tax estimate (India)</a></li>
+      <li><a href="#country">Country &amp; currency</a></li>
+      <li><a href="#data-privacy">Your data &amp; privacy</a></li>
+      <li><a href="#faq">Questions</a></li>
+    </ol>
+  </aside>
+
+  <article class="prose">
+    <div class="summary">
+      <h2>Quick start</h2>
+      <ul>
+        <li>Sign in with Google. FinTaxica keeps everything in a Google Sheet in <strong>your own Drive</strong>.</li>
+        <li>Add a <strong>source</strong> for each place your money lives (bank, cash, wallet, card…) with its balance today.</li>
+        <li>Tap <strong>Expense</strong>, <strong>Income</strong> or <strong>Transfer</strong> on Home whenever money moves.</li>
+        <li>Save anything you repeat as a <strong>template</strong>, or make it a <strong>recurring</strong> payment.</li>
+        <li>Lost? Tap the <strong>?</strong> at the top of Home, Activity, Invest or Insights for a short explanation.</li>
+      </ul>
+    </div>
+
+    <!-- ============================================================ -->
+    <h2 id="getting-started">Getting started</h2>
+    <p>FinTaxica runs on Android. There is no FinTaxica account to create: you sign in with Google, and the app keeps your records in a spreadsheet in your own Google Drive.</p>
+
+    <h3>Sign in and create your sheet</h3>
+    <ol class="steps-list">
+      <li>Open FinTaxica. Swipe through the three welcome screens, or tap <strong>Skip</strong>.</li>
+      <li>On the first screen, check the country shown (for example “India · ₹”). It is set from your phone's region. Tap <strong>Change</strong> if it's wrong.</li>
+      <li>Tap <strong>Continue with Google</strong> and choose your account.</li>
+      <li>Google asks what FinTaxica may access. <strong>Tick the box</strong> that lets it create and use its own files in your Drive. Without it, the app can't make your sheet and will ask you to try again.</li>
+      <li>FinTaxica creates a sheet called <strong>“FinTaxica Data”</strong> in your Drive.</li>
+    </ol>
+
+    <h3>“How do you earn?”</h3>
+    <p>Next, pick everything that fits you: Salaried, Freelancer / professional, Business owner, Retired / pension, Student, Homemaker / not working now, or Investments / rental income. FinTaxica adds matching income categories (for example Pension or Client payment). Tap <strong>Skip for now</strong> if you'd rather not say. You can change this later in <strong>More → How you earn</strong>.</p>
+
+    <h3>Add your first sources</h3>
+    <p>A source is a place your money lives. On the <strong>Set up your sources</strong> screen:</p>
+    <ol class="steps-list">
+      <li>Tap <strong>Add source</strong>.</li>
+      <li>Pick a type (Bank, Cash, Wallet…), give it a name, and enter its <strong>balance right now</strong>.</li>
+      <li>Repeat for each account. Once you have at least one, tap <strong>Done — take me to my money</strong>.</li>
+    </ol>
+    <p>Not sure what something does? Tap the <strong>?</strong> at the top of Home, Activity, Invest or Insights for a short explanation of that screen.</p>
+    <div class="callout"><p><strong>Tip:</strong> Already used FinTaxica on another phone? Sign in with the same Google account and the app finds your existing sheet. You go straight to your data.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="home">The Home screen</h2>
+    <p>Home shows where you stand today. From top to bottom:</p>
+    <ul>
+      <li><strong>Net worth</strong>: the total of all your sources, plus your investments at today's value. Credit cards and loans count as minus. Underneath, FinTaxica shows your highest net worth so far, or “You're at your highest ever”.</li>
+      <li><strong>Expense, Income, Transfer</strong>: the three buttons you'll use most. See <a href="#adding-entries">Adding entries</a>.</li>
+      <li><strong>Buckets</strong>: how much each of your first three buckets holds. If you have more, a “+2 more” link shows what the others hold. <strong>Move money</strong> shifts money from one bucket to another. See <a href="#buckets">Buckets</a>.</li>
+      <li><strong>Investments</strong> (once you have some): current value, gain and return. Tap <strong>Open →</strong> for the Invest tab.</li>
+      <li><strong>This month</strong>: <strong>Spent</strong> (with a ▲ or ▼ compared with last month), <strong>Earned</strong>, <strong>Saved</strong> (with your savings rate) and <strong>Instant cash</strong>. <strong>See all →</strong> opens Activity.</li>
+      <li><strong>Due</strong>: appears only when a recurring payment is due, overdue, or coming up in the next 3 days. Payments that are due have <strong>Add</strong> and <strong>Skip</strong> buttons. See <a href="#templates">Templates &amp; recurring</a>.</li>
+      <li><strong>Sources</strong>: every source with its balance. Tap one, or <strong>Manage</strong>, to add or edit sources.</li>
+    </ul>
+    <div class="callout"><p><strong>Tip:</strong> Pull down on Home to reload. Do this after changing something in the sheet on your computer or on another phone.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="sources">Sources</h2>
+    <p>A source is anywhere you keep money, or owe it. Each one has a type:</p>
+    <table class="table">
+      <thead><tr><th>Type</th><th>Use it for</th></tr></thead>
+      <tbody>
+        <tr><td>Bank</td><td>Savings or current account</td></tr>
+        <tr><td>Cash</td><td>Cash in hand</td></tr>
+        <tr><td>Wallet</td><td>Paytm, PhonePe, FASTag, gift vouchers</td></tr>
+        <tr><td>Card</td><td>A credit card. Spending on it makes its balance negative.</td></tr>
+        <tr><td>Broker</td><td>Cash lying in a trading account (Dhan, Zerodha…)</td></tr>
+        <tr><td>Deposit</td><td>A fixed or recurring deposit</td></tr>
+        <tr><td>Retirement</td><td>PF, PPF, NPS</td></tr>
+        <tr><td>Lent</td><td>Money someone owes you</td></tr>
+        <tr><td>Borrowed</td><td>A loan you owe</td></tr>
+        <tr><td>Other</td><td>Anything else you own</td></tr>
+      </tbody>
+    </table>
+    <p>For a credit card or a loan, enter what you owe as a <strong>minus</strong> number (for example <code>-12000</code>). That way it counts against your net worth.</p>
+
+    <h3>Add a source</h3>
+    <ol class="steps-list">
+      <li>On Home, tap the <strong>Add source</strong> tile (or go to <strong>More → Sources</strong>).</li>
+      <li>Pick the type, enter a name, and enter the balance it holds today.</li>
+      <li>Tap <strong>Add source</strong>. Every income, expense and transfer you add from now on updates this balance.</li>
+    </ol>
+
+    <h3>Edit a source or correct its balance</h3>
+    <p>Tap the source to change its name, type or balance. Renaming it also updates every entry that uses it.</p>
+    <p>If the balance doesn't match your bank or app, type in the right amount and save. FinTaxica records the difference as a <strong>“Balance adjustment”</strong> entry in Activity, dated today. It never counts as spending or income, and your original opening balance stays as it was.</p>
+    <div class="callout"><p><strong>Tip:</strong> There's no way to delete a source in the app yet. If you close an account, set its balance to 0 and leave it in place.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="buckets">Buckets</h2>
+    <p>Buckets split your money by <strong>purpose</strong>, without moving it between accounts. For example, ₹1,00,000 in one bank account could be ₹40,000 in “Expense budget” and ₹60,000 in “Savings”.</p>
+    <p>Everyone starts with three buckets: <strong>Expense budget</strong>, <strong>Savings</strong> and <strong>Investments</strong>.</p>
+
+    <h3>How money gets into buckets</h3>
+    <ul>
+      <li>Your sources' opening balances start in your first bucket.</li>
+      <li>Each income goes <strong>into</strong> a bucket, and each expense comes <strong>from</strong> one. You pick it on the entry form. It starts on your first bucket.</li>
+      <li><strong>Move money</strong> on Home shifts money between two buckets. You need at least two buckets for this.</li>
+    </ul>
+
+    <h3>Rename, re-icon, add or delete</h3>
+    <ol class="steps-list">
+      <li>Go to <strong>More → Buckets &amp; salary split</strong>.</li>
+      <li>Tap <strong>+</strong> at the top to add a bucket, for example “Emergency fund” or “Car”.</li>
+      <li>Tap <strong>⋮</strong> next to a bucket to <strong>Rename</strong> it, <strong>Change icon</strong>, or <strong>Delete</strong> it.</li>
+    </ol>
+    <p>Two rules apply. You always keep at least one bucket. And you can delete a bucket only when it holds ₹0, so move its money to another bucket first. Its past entries stay as they are and are listed under another bucket.</p>
+
+    <h3>Salary split</h3>
+    <p>On the same screen, under <strong>Salary split</strong>, you can say how each salary should be shared out. For each bucket, enter one of:</p>
+    <ul>
+      <li>an amount, such as <code>27000</code>;</li>
+      <li>a share, such as <code>20%</code>;</li>
+      <li><code>rest</code>, for the one bucket that gets whatever is left.</li>
+    </ul>
+    <p>Tap <strong>Save split</strong>. Shares can add up to 100% at most, and only one bucket can be “rest”. If none is, your first bucket gets what's left. From then on, when you add income with a salary category, the split is filled in for you. You can still change it before saving.</p>
+
+    <!-- ============================================================ -->
+    <h2 id="instant-cash">Instant cash</h2>
+    <p>Instant cash is the money you could use <strong>right away</strong>. You'll find it on Home, next to this month's figures.</p>
+    <p>By default it adds up every source of type <strong>Bank</strong>, <strong>Cash</strong>, <strong>Wallet</strong> and <strong>Broker</strong>. Deposits, retirement accounts, cards, loans, money you've lent and “Other” sources are left out.</p>
+
+    <h3>Choose which sources count</h3>
+    <ol class="steps-list">
+      <li>On Home, tap the <strong>Instant cash</strong> card (it has a small pencil icon).</li>
+      <li>Tick the sources you want included. The total updates as you go.</li>
+      <li>Tap <strong>Save</strong>. To go back to the default, tap <strong>Reset to default</strong>.</li>
+    </ol>
+    <p>Once you've chosen your own list, a source you add later isn't included until you tick it.</p>
+    <div class="callout"><p><strong>Tip:</strong> Instant cash is about <em>where</em> your money is. Buckets are about <em>what it's for</em>. The two don't affect each other.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="adding-entries">Adding entries</h2>
+    <p>An entry is any time money moves. Every entry has an amount, a date and, usually, a source and a category.</p>
+
+    <h3>Expense</h3>
+    <ol class="steps-list">
+      <li>On Home, tap <strong>Expense</strong>.</li>
+      <li>Enter the amount and choose where it was <strong>Paid from</strong>.</li>
+      <li>Tap a category, or type your own under <strong>Custom category</strong>.</li>
+      <li>Optionally choose the bucket, add tags or a note, and change the date.</li>
+      <li>Tap <strong>Save</strong>.</li>
+    </ol>
+
+    <h3>Income</h3>
+    <p>Tap <strong>Income</strong> and fill it in the same way, choosing where it was <strong>Received in</strong> and which bucket it goes <strong>into</strong>. To share it across buckets, turn on <strong>Split across buckets</strong> and enter how much goes to each. The rest goes to your “rest” bucket.</p>
+    <p>To record money back on a purchase, add it as income with the <strong>Refund</strong> category. Refunds reduce your spending instead of counting as income.</p>
+
+    <h3>Salary details (India)</h3>
+    <p>When an income's category is a salary, the amount becomes <strong>Amount received in bank</strong>, your saved salary split (if any) is filled in, and an optional <strong>Salary details</strong> section appears:</p>
+    <ul>
+      <li><strong>Tax deducted (TDS)</strong>: saved as tax paid, so your tax estimate counts it.</li>
+      <li><strong>PF — your contribution</strong> and <strong>PF — employer contribution</strong>: added to a Retirement source (for example “EPF”) that you choose under <strong>PF goes to</strong>. You need a Retirement source for this.</li>
+    </ul>
+    <p>FinTaxica shows your taxable salary for the month and saves everything together as one linked salary entry.</p>
+
+    <h3>Transfer</h3>
+    <p>Use <strong>Transfer</strong> when money moves between two of your own sources, such as paying your credit card bill from your bank, withdrawing cash, or topping up a wallet. Choose <strong>From</strong> and <strong>To</strong>. A transfer isn't spending, so your net worth stays the same. You need at least two sources.</p>
+
+    <h3>Move between buckets</h3>
+    <p>On Home, tap <strong>Move money</strong> next to Buckets. Pick the <strong>From bucket</strong>, the <strong>To bucket</strong> and the amount. No money leaves any account.</p>
+
+    <h3>Tax paid (India)</h3>
+    <p>Go to <strong>Insights → Tax → Add tax paid</strong>. Choose TDS, Advance tax or Self-assessment tax. Under <strong>Paid from</strong>, choose a source if you paid it yourself, or <strong>Deducted at source (TDS)</strong> if it was taken before you were paid.</p>
+
+    <h3>Tags, notes and dates</h3>
+    <ul>
+      <li><strong>Tags</strong>: tap a tag to add it, or <strong>New tag</strong> to create one (for example <code>#goa trip</code>). See <a href="#tags">Tags</a>.</li>
+      <li><strong>Note</strong>: anything that helps you remember the entry. Notes are searchable.</li>
+      <li><strong>Date</strong>: tap the date button to change it. An entry can be dated today or any day in the past, not in the future.</li>
+    </ul>
+    <div class="callout"><p><strong>Tip:</strong> A category you type under “Custom category” is saved on that entry only. To have it as a ready-made choice next time, add it in <strong>More → Categories</strong>. There you can also set how each category counts for tax.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="templates">Templates &amp; recurring payments</h2>
+    <p>A <strong>template</strong> is a saved entry you can add again in one tap, such as your usual chai or the weekly groceries. A template that repeats is a <strong>recurring payment</strong>, such as rent, an EMI, a SIP or your salary.</p>
+
+    <h3>Save an entry as a template</h3>
+    <ol class="steps-list">
+      <li>Fill in a new entry as usual.</li>
+      <li>At the bottom, turn on <strong>Save as template</strong> and check the suggested name.</li>
+      <li>Under <strong>Repeat</strong>, leave <strong>Doesn't repeat</strong> or choose every month, week or year. The day comes from the entry's date.</li>
+      <li>Tap <strong>Save</strong>. The entry is added, and the template is saved too.</li>
+    </ol>
+    <p>For a recurring payment you can also set:</p>
+    <ul>
+      <li><strong>Ends after how many payments?</strong> Useful for EMIs. Count the one you're adding now. For example, enter 24 for a 24-month loan.</li>
+      <li><strong>Amount changes each time</strong>, for bills like electricity. You'll enter the amount when it's due.</li>
+    </ul>
+    <p>A salary template keeps its TDS and PF amounts. A split income saves only the total, so you split it again when you add it.</p>
+
+    <h3>Use a template</h3>
+    <p>Next time you open the same kind of entry (expense, income…), your templates appear as chips at the top of the form. Tap one to fill in everything, check it, then tap <strong>Save</strong>. If that template has a payment due, saving also marks it as done.</p>
+
+    <h3>When a recurring payment is due</h3>
+    <p>FinTaxica <strong>never adds anything by itself</strong>. When a payment is due, overdue, or coming up within 3 days, it shows in the <strong>Due</strong> card on Home. Payments due today or overdue have two buttons:</p>
+    <ul>
+      <li><strong>Add</strong> records it straight away with the saved amount. If the amount varies, a source it uses no longer exists, or it's a salary, the entry form opens already filled in so you can check it first.</li>
+      <li><strong>Skip</strong> marks that payment as done without adding anything.</li>
+    </ul>
+    <p>If several payments of the same template have piled up, the card says “2 more due” and shows them one at a time, oldest first.</p>
+
+    <h3>Manage, pause or undo a skip</h3>
+    <p>Go to <strong>More → Templates &amp; recurring</strong>. Recurring payments are listed first, soonest first, with when each is next due (and, if you set a number of payments, how many are left). One-tap templates come after them.</p>
+    <ul>
+      <li>Tap a template to edit its amount, source, category, schedule, end date or number of payments.</li>
+      <li>Tap <strong>⋮</strong> to <strong>Pause</strong> or <strong>Resume</strong> it, or to <strong>Delete</strong> it. Deleting a template doesn't remove entries it already added.</li>
+      <li><strong>Skipped one by mistake?</strong> Open the template and set <strong>Last done</strong> to an earlier date. The payment comes back on the Due card.</li>
+    </ul>
+    <div class="callout"><p><strong>Tip:</strong> A payment set for the 29th, 30th or 31st falls on the last day of shorter months, then goes back to its usual day.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="activity">Activity</h2>
+    <p>The <strong>Activity</strong> tab lists every entry, newest first. Each row shows the category (or “From → To” for transfers and bucket moves), the date, the source, any note and tags, and the amount.</p>
+
+    <h3>Find entries</h3>
+    <ul>
+      <li><strong>Search</strong> looks in categories, notes, source names and tags.</li>
+      <li>The <strong>calendar icon</strong> in the search box picks dates: this month, last month, the last 30 days, this or last financial year (this or last year outside India), or a custom range.</li>
+      <li><strong>Type</strong> (Expense, Income, Tax paid), <strong>Source</strong>, <strong>Category</strong> and <strong>Tag</strong> narrow the list. Tap the <strong>×</strong> on a filter to clear it.</li>
+    </ul>
+
+    <h3>Totals and Tag all</h3>
+    <p>As soon as you search or filter, a summary appears above the list showing how many entries match, plus <strong>Spent</strong>, <strong>Received</strong>, <strong>Tax paid</strong> and <strong>Net</strong>. Refunds reduce Spent, and balance adjustments are left out of the amounts.</p>
+    <p><strong>Tag all</strong>, in that summary, adds one tag to every entry the list is showing. It's handy for tagging a whole trip at once. A few very old entries may be skipped, and the app tells you if so.</p>
+
+    <h3>Edit or delete</h3>
+    <ul>
+      <li><strong>Tap</strong> an entry to edit it.</li>
+      <li><strong>Swipe left</strong> on an entry to delete it. You'll be asked to confirm.</li>
+      <li>A split income or salary is saved as several linked parts. Editing changes just the part you tapped. Deleting asks whether to remove the <strong>Whole entry</strong> or <strong>Just this part</strong>.</li>
+    </ul>
+
+    <!-- ============================================================ -->
+    <h2 id="tags">Tags</h2>
+    <p>Tags group entries across categories. A trip, a wedding, a home project or a person can each have a tag. Then you can see exactly what it cost.</p>
+    <p>You can add tags while entering, with <strong>Tag all</strong> in Activity, or from <strong>More → Tags → New tag</strong>.</p>
+
+    <h3>Tag pages</h3>
+    <p>In <strong>More → Tags</strong>, each tag shows how many entries use it and how much was spent. Tap a tag to open its page:</p>
+    <ul>
+      <li>The big number is the <strong>net total</strong>: received, minus spent, minus any tax paid. Below it you'll see Received and Spent separately, and this month's figure.</li>
+      <li>Every entry with the tag is listed underneath. Use the calendar icon to limit it to certain dates.</li>
+    </ul>
+
+    <h3>Rename, merge or delete</h3>
+    <ul>
+      <li><strong>Rename</strong> (pencil icon) changes the tag on every entry. If you pick a name that already exists, FinTaxica offers to <strong>merge</strong> the two tags into one.</li>
+      <li><strong>Delete</strong> (bin icon) removes the tag from all its entries. The entries themselves stay.</li>
+    </ul>
+    <div class="callout"><p><strong>Tip:</strong> To see what a trip cost, filter Activity by its tag. The summary shows the total straight away.</p></div>
+
+    <!-- ============================================================ -->
+    <h2 id="invest">Investments</h2>
+    <p>The <strong>Invest</strong> tab tracks stocks, ETFs, mutual funds, bonds, gold, crypto and more. At the top you'll see the current value, your unrealised gain (on what you still hold), how much you invested, your <strong>booked P&amp;L</strong> (profit or loss on what you've sold) and your <strong>XIRR</strong>.</p>
+
+    <h3>Add an investment</h3>
+    <ol class="steps-list">
+      <li>Tap <strong>Buy</strong>, then <strong>Choose what you bought</strong>.</li>
+      <li>Pick one you already have, or tap <strong>New investment…</strong> and search by name (at least 3 letters, for example “Nifty BeES” or “Parag Parikh”). In India, mutual funds appear too.</li>
+      <li>Pick a result. FinTaxica fills in the type, tax class and price source. Check them, choose a bucket, and tap <strong>Add</strong>.</li>
+      <li>Enter the quantity, the price, the date and any charges (brokerage, STT and so on, from your contract note).</li>
+      <li>Under <strong>Paid from</strong>, choose the source the money came out of, or <strong>Not from a tracked source</strong>. Tap <strong>Record purchase</strong>.</li>
+    </ol>
+    <p>No search result? Fill in the details yourself. Leave the price source empty and type the price in, which suits things like physical gold or a bond.</p>
+
+    <h3>Lots, buying more and selling</h3>
+    <p>Each purchase is a <strong>lot</strong>. Tap an investment to see its lots, each marked <strong>LT</strong> (long term) or <strong>ST</strong> (short term) for tax.</p>
+    <ul>
+      <li><strong>Buy more</strong> adds a new lot.</li>
+      <li><strong>Sell</strong> sells your <strong>oldest lots first</strong> (first in, first out).</li>
+      <li>To sell a specific lot instead, tap that lot and choose <strong>Sell this lot</strong>.</li>
+      <li>From the same lot menu you can <strong>Undo this sale</strong>, <strong>Edit lot</strong> or <strong>Delete lot</strong>. Deleting a lot also reverses any money it moved in or out of your sources.</li>
+    </ul>
+    <p>Investments you've fully sold are hidden. Tap <strong>Show sold-out</strong> to see them.</p>
+
+    <h3>Prices</h3>
+    <p>Prices update by themselves. Your sheet holds a price formula for each investment (Google Finance for stocks and ETFs, a public NAV feed for Indian mutual funds), and Google refreshes it about every hour. If no live price is available, FinTaxica shows the last known price, or your buy price, and says so.</p>
+
+    <h3>What XIRR means</h3>
+    <p>XIRR is your return per year. It takes into account <em>when</em> each rupee went in and came out. <strong>Holdings now</strong> covers what you still hold. <strong>Lifetime, incl. sold</strong> includes everything you've ever sold.</p>
+
+    <!-- ============================================================ -->
+    <h2 id="insights">Insights</h2>
+    <p>The <strong>Insights</strong> tab shows where your money goes. Use the arrows at the top to move between months.</p>
+    <ul>
+      <li><strong>Income vs expense</strong>: what came in, what went out, and whether you saved or overspent.</li>
+      <li><strong>Compared with last month</strong>: whether you spent more or less.</li>
+      <li><strong>Spending by category</strong>: each category with its share of the month's spending.</li>
+      <li><strong>By tag</strong>: spending per tag that month.</li>
+      <li><strong>Spending · month by year</strong>: a grid with months down the side and years across the top, so you can compare, say, every March.</li>
+    </ul>
+    <h3>What counts as spending</h3>
+    <ul>
+      <li><strong>Refunds</strong> are taken off your spending, not added to income.</li>
+      <li><strong>Bookkeeping entries</strong>, such as balance adjustments and trade charges, are left out completely.</li>
+      <li><strong>Transfers</strong> and <strong>bucket moves</strong> aren't spending, because the money is still yours.</li>
+      <li><strong>Tax paid</strong> isn't counted as spending. It's shown in the tax estimate instead.</li>
+    </ul>
+
+    <!-- ============================================================ -->
+    <h2 id="tax">Tax estimate (India)</h2>
+    <div class="callout"><p><strong>Important:</strong> The tax figures are <strong>estimates</strong> based only on what you've recorded. FinTaxica is not tax advice. Check with a tax professional before you file.</p></div>
+    <p>If your country is India, open <strong>Insights → Tax</strong>. Pick a financial year at the top (from FY 2023-24). FinTaxica estimates your income tax under the <strong>new regime</strong> for a resident individual. It doesn't cover the old regime.</p>
+
+    <h3>What's included</h3>
+    <ul>
+      <li>Salary (gross), with the standard deduction taken off automatically.</li>
+      <li>Interest (savings, FDs, bonds), dividends and other taxable income.</li>
+      <li>Capital gains from sales you've recorded in Invest, by type and holding period, after setting off losses. The equity long-term exemption is applied.</li>
+      <li>The section 87A rebate, marginal relief and 4% health &amp; education cess.</li>
+      <li>Tax already paid (TDS, advance and self-assessment tax) is taken off. The result is shown as an <strong>estimated refund</strong> or <strong>estimated still to pay</strong>.</li>
+    </ul>
+
+    <h3>What's not included yet</h3>
+    <ul>
+      <li><strong>Freelance, business and rental income</strong> (44ADA, 44AD, house property). If you've recorded any, a note says so, and your actual tax may be higher.</li>
+      <li>Surcharge (above ₹50 lakh income), deductions other than the standard deduction, and indexation.</li>
+    </ul>
+    <p>Which income counts as what comes from its category. To check or change one, go to <strong>More → Categories</strong> and tap a category.</p>
+
+    <h3>Estimate for 31 March</h3>
+    <p>For the current year, FinTaxica also guesses where you'll end up by 31 March. It assumes the same monthly salary and TDS for the months left, interest at this year's pace, and no new sales.</p>
+
+    <h3>Past losses</h3>
+    <p>Tap <strong>Past losses</strong> to enter short- and long-term capital losses carried in from earlier years, as shown in your last tax return (schedule CFL). Leave them empty and FinTaxica works them out from the sales you've recorded.</p>
+
+    <h3>Before 31 March: harvesting hints</h3>
+    <p>For the current year, this section points out chances to lower your tax:</p>
+    <ul>
+      <li>how much more long-term equity gain you could book tax-free this year, and which lots have those gains;</li>
+      <li>which lots are at a loss, and roughly how much tax selling them could save, or how much loss you'd carry forward (up to 8 years).</li>
+    </ul>
+    <p>These are hints only. FinTaxica never buys or sells anything for you.</p>
+
+    <h3>Notes</h3>
+    <p>Notes at the bottom of the estimate explain anything that affects it, such as income not yet covered or a surcharge warning. Read them before relying on the figure.</p>
+
+    <!-- ============================================================ -->
+    <h2 id="country">Country &amp; currency</h2>
+    <p>Your country is set when you first open the app (from your phone's region). It changes:</p>
+    <ul>
+      <li><strong>Currency</strong>: the symbol shown on every amount.</li>
+      <li><strong>Number format</strong>: India uses lakh and crore grouping (1,00,000). Elsewhere it's 100,000.</li>
+      <li><strong>Financial year</strong> in date filters: April to March in India, the calendar year elsewhere.</li>
+      <li><strong>Investment search</strong>: your country's stock exchanges come first. Indian mutual funds are searched only when your country is India.</li>
+      <li><strong>Tax</strong>: estimates are available for India only for now. Elsewhere, the Tax view says they're coming soon. Salary TDS and PF details are also India only.</li>
+    </ul>
+
+    <h3>Change your country</h3>
+    <ol class="steps-list">
+      <li>Go to <strong>More → Country</strong>.</li>
+      <li>Search for and tap your country.</li>
+      <li>Read the summary and tap <strong>Switch</strong>.</li>
+    </ol>
+    <p>Everything you've entered stays exactly as it is. <strong>Amounts are not converted</strong>; only the symbol and format change. To change just the currency symbol, use <strong>More → Currency</strong>. Both settings are saved in your sheet, so they follow you to other phones.</p>
+
+    <!-- ============================================================ -->
+    <h2 id="data-privacy">Your data &amp; privacy</h2>
+    <p>Everything you record is stored in the <strong>“FinTaxica Data”</strong> sheet in <strong>your own Google Drive</strong>. FinTaxica runs no servers of its own, and we can't see your numbers. Full details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+    <ul>
+      <li><strong>Limited access.</strong> FinTaxica uses Google's <code>drive.file</code> permission. It can see and change <strong>only the files it creates</strong> (your sheet and its backups), not anything else in your Drive.</li>
+      <li><strong>Open your sheet.</strong> <strong>More → Open my Google Sheet</strong> opens it in Google Sheets. To keep a copy on your computer, use <strong>File → Download</strong> there.</li>
+      <li><strong>Back up.</strong> <strong>More → Back up now</strong> saves a full copy, named “FinTaxica Data — backup” with the date, in your Drive. FinTaxica also makes one by itself before updating your sheet to a newer format. Need to go back to a backup? Email us and we'll walk you through it.</li>
+      <li><strong>Sign out.</strong> <strong>More → Sign out</strong>. Your data stays safe in your sheet. Sign in with the same account to carry on.</li>
+      <li><strong>Delete my data.</strong> <strong>More → Delete my data</strong> moves your sheet and all its backups to your Drive trash and signs you out. Google deletes trashed files for good after about 30 days. See <a href="delete-data.html">Delete your data</a> for how to do this without the app.</li>
+    </ul>
+
+    <!-- ============================================================ -->
+    <h2 id="faq">Questions</h2>
+
+    <h3>Can I edit the sheet directly?</h3>
+    <p>Yes. It's an ordinary Google Sheet. You can fix or add rows there, then pull down on Home in the app to reload. Please keep the layout as it is: don't rename the tabs, delete the header rows, move columns, or change the ID column. The app relies on these to find your entries.</p>
+
+    <h3>What if I lose my phone?</h3>
+    <p>Your data is in your Google Drive, not on the phone. Install FinTaxica on your new phone and sign in with the same Google account, and everything is there. To be safe, sign the lost phone out of your Google account from your Google account's security settings.</p>
+
+    <h3>Why is my balance different from my bank?</h3>
+    <p>A source's balance is the amount you started with plus every entry since. A difference usually means an entry is missing (often bank charges, interest or a small UPI payment) or was added twice. Search Activity for that source to check. To simply match the bank, tap the source and type the bank's balance. FinTaxica records the difference as a balance adjustment, which isn't counted as spending or income.</p>
+
+    <h3>Does FinTaxica see my bank account?</h3>
+    <p>No. FinTaxica never connects to your bank, never asks for bank logins, and never reads your SMS. It only knows what you enter yourself.</p>
+
+    <h3>Is the tax figure exact?</h3>
+    <p>No. It's an estimate under India's new regime, based only on what you've recorded, and some income types and rules aren't covered yet (see <a href="#tax">Tax estimate</a>). It isn't tax advice. Check with a tax professional before filing.</p>
+
+    <h3>How do I record paying my credit card bill?</h3>
+    <p>Add a <strong>Transfer</strong> from your bank to the card. The purchases were already counted as expenses when you made them, so the bill payment isn't spending again.</p>
+
+    <h3>What's the difference between a source and a bucket?</h3>
+    <p>A source is <em>where</em> money is, such as your bank account or wallet. A bucket is <em>what it's for</em>, such as your expense budget or savings. The same rupee is in one source and one bucket at the same time.</p>
+
+    <h3>Why wasn't my recurring payment added?</h3>
+    <p>FinTaxica never adds entries by itself. When a payment is due, it waits on the <strong>Due</strong> card on Home until you tap <strong>Add</strong> or <strong>Skip</strong>. If it doesn't appear, check in <strong>More → Templates &amp; recurring</strong> that it isn't paused or finished.</p>
+
+    <h3>How do I record a refund?</h3>
+    <p>Add it as <strong>Income</strong> with the <strong>Refund</strong> category. It reduces that month's spending instead of counting as income.</p>
+
+    <h3>Does it work offline?</h3>
+    <p>FinTaxica needs an internet connection to load and save, because your data lives in your Google Sheet. If a refresh fails, the app keeps showing what it last loaded and lets you try again.</p>
+
+    <h3>Can I use FinTaxica on two phones?</h3>
+    <p>Yes. Sign in with the same Google account on both. Both phones use the same sheet. Pull down on Home to see changes made on the other phone.</p>
+
+    <h3>How do I get help?</h3>
+    <p>Email us at <a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a>. FinTaxica is made by 100&nbsp;Sangrama. Please don't send screenshots of your sheet unless you're happy for us to see those numbers.</p>
+  </article>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="./"><img src="assets/icon-512.png" alt="">FinTaxica</a>
+      <p class="muted" style="margin:12px 0 0;max-width:30em">Private personal finance. Your money, your sheet, your Drive.</p>
+    </div>
+    <div>
+      <h4>Product</h4>
+      <ul><li><a href="./#features">Features</a></li><li><a href="./#privacy">Privacy by design</a></li><li><a href="./#faq">FAQ</a></li><li><a href="help.html">User guide</a></li></ul>
+    </div>
+    <div>
+      <h4>Legal &amp; support</h4>
+      <ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Service</a></li><li><a href="delete-data.html">Delete your data</a></li><li><a href="mailto:fintaxica@gmail.com">fintaxica@gmail.com</a></li></ul>
+    </div>
+    <div class="legal"><span>© 100&nbsp;Sangrama, 2026. All rights reserved.</span><span>FinTaxica is not affiliated with Google. Google Drive and Google Sheets are trademarks of Google LLC.</span></div>
+  </div>
+</footer>
+</body>
+</html>
